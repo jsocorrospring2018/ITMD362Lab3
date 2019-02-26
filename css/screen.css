@@ -125,6 +125,7 @@ progress {
 
 textarea {
   overflow: auto;
+
 }
 
 /**
@@ -200,11 +201,21 @@ html {
 
 label {
   display: block;
+
 }
 
 /* ===== LAYOUT STYLES ====== */
-
+input{
+  width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+background-color:green;
+}
+}
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
-
