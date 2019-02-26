@@ -205,16 +205,34 @@ label {
 }
 
 /* ===== LAYOUT STYLES ====== */
-input{
-  width: 100%;
-padding: 12px 20px;
+#textE{
+  color:white;
+}
+
+#textA{
+  color:white;
+}
+
+#textH1{
+  color:white;
+}
+
+#textP{
+  color:white;
+}
+
+#email{
+width: 180px;
+padding:25px, 0px;
 margin: 8px 0;
 display: inline-block;
-border: 1px solid #ccc;
-border-radius: 4px;
-box-sizing: border-box;
-background-color:green;
+border-style: none;
+background-color:grey;
+color: white;
 }
+
+body{
+  background-color: black;
 }
 /* ===== MODULAR STYLES ===== */
 
