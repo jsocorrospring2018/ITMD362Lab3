@@ -207,18 +207,43 @@ label {
 /* ===== LAYOUT STYLES ====== */
 #textE{
   color:white;
+  padding: 40px;
+  background-color: purple;
 }
 
+#input-email{
+  color:white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  background-color: red;
+}
+.contain{
+  flex-direction: row;
+  color:white;
+  padding-top:: 40px;
+  background-color: blue;
+  margin: auto;
+  overflow: hidden;
+  padding-bottom:20px;
+}
+/*
 #textA{
   color:white;
+  padding-top:: 40px;
+  background-color: blue;
+  margin: auto;
 }
-
+*/
 #textH1{
   color:white;
+  padding-bottom: 20px;
+  background-color: orange;
 }
 
 #textP{
   color:white;
+  background-color: green;
+  padding: : 50px;
 }
 
 #email{

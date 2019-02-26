@@ -16,13 +16,15 @@
     </p>
     <ol>
       <li id="input-email">
-        <label for="email" id="textE">Email</label>
+        <label for="email" id="input-email">Email</label>
         <input type="email" name="email" id="email" pattern="^.+@.+$" />
       </li>
-      <li id="input-age-verification">
-        <input type="checkbox" id="age-verification" name="age-verification" value="18" />
-        <label for="age-verification" id="textA">I am 18 years of age or older and there is no denying that this is true</label>
-      </li>
+      <div class="contain">
+        <li>
+          <input type="checkbox" id="age-verification" name="age-verification" value="18" />
+          <label for="age-verification" id="textA">I am 18 years of age or older and there is no denying that this is true</label>
+        </li>
+      </div>
       <li id="input-submit">
         <input type="submit" name="submit" id="submit" value="Subscribe" />
       </li>
