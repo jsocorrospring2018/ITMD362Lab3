@@ -198,8 +198,8 @@ html {
   padding: 1.182em; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Lora', serif;
   font-family: 'Padauk', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 label {
@@ -220,7 +220,7 @@ label {
   padding-top: 20px;
   /*background-color: red; */
 }
-.contain{
+#contain{
   flex-direction: row;
   color:white;
   padding-top: 10px;
@@ -228,6 +228,7 @@ label {
   margin: auto;
   overflow: hidden;
   padding-bottom:20px;
+  font-size: 15px;
 }
 /*
 #textA{
